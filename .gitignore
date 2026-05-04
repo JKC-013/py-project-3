@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Configuration and Secrets
+# Ignore database connection details in all directories
+database.ini
+**/database.ini
+
+# IDEs
+.idea/
+.vscode/
+
+# Poetry
+.python-version
+poetry.lock
